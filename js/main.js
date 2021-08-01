@@ -83,7 +83,7 @@ document.getElementById('contactForm')
         event.preventDefault();
         submitBtn.value = 'Sending...';
         const serviceID = 'default_service';
-        const templateID = 'template_4g8mdqh';
+        const templateID = 'template_gpqqs0i';
         emailjs.sendForm(serviceID, templateID, this)
             .then(() => {
                 submitBtn.value = 'Send Message';
