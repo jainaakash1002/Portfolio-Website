@@ -6,8 +6,8 @@ const root = document.querySelector(":root"),
   sections = document.querySelectorAll("section[id]"),
   downloadResume = document.getElementById("download-resume"),
   emailTextbox = document.getElementById("fromEmail"),
-  submitBtn = document.getElementById("submitButton");
-themeToggler = document.getElementById("themeToggler");
+  submitBtn = document.getElementById("submitButton"),
+  themeToggler = document.getElementById("themeToggler");
 
 //Show menu
 toggleMenu.addEventListener("click", () => {
