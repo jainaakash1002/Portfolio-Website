@@ -5,7 +5,7 @@ const root = document.querySelector(":root"),
   navLink = document.querySelectorAll(".nav_link"),
   sections = document.querySelectorAll("section[id]"),
   downloadResume = document.getElementById("download-resume"),
-  emailTextbox = document.getElementById("fromEmail"),
+  emailTextbox = document.getElementById("user_email"),
   submitBtn = document.getElementById("submitButton"),
   themeToggler = document.getElementById("themeToggler");
 
